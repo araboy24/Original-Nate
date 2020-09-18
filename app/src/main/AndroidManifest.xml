@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.araboy.natego">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TodaysInfoActivity"></activity>
+        <activity android:name=".AddFoodActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Survey5WeeklyGoalActivity" />
+        <activity android:name=".Survey4BodyInfoActivity" />
+        <activity android:name=".Survey3UserInfoActivity" />
+        <activity android:name=".Survey2ActiveActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".idk" />
+        <activity android:name=".BarcodeScannerActivity" />
+        <activity android:name=".SurveyActivity" />
+        <activity android:name=".RegisterActivity2" />
+        <activity android:name=".LoginActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

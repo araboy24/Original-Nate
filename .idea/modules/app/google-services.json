@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078083897449",
+    "firebase_url": "https://natego.firebaseio.com",
+    "project_id": "natego",
+    "storage_bucket": "natego.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078083897449:android:057e45f8421259cf6afaf8",
+        "android_client_info": {
+          "package_name": "com.araboy.natego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078083897449-gtulh66g31g122odfkroitht1t2bsdkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.araboy.natego",
+            "certificate_hash": "0bd4e302c32a8189cb52591e67d52ce35ef5b7b8"
+          }
+        },
+        {
+          "client_id": "1078083897449-nrqsu3corfgj9bfqec8mbcs452fh1avj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzCI8uVzrd4QccvVlqecv2K31WJMytThU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078083897449-nrqsu3corfgj9bfqec8mbcs452fh1avj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
