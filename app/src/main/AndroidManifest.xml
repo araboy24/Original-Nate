@@ -20,6 +20,7 @@
         <activity android:name=".Survey2ActiveActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".idk" />
+        <activity android:name=".HomeSideBarActivity" />
         <activity android:name=".BarcodeScannerActivity" />
         <activity android:name=".SurveyActivity" />
         <activity android:name=".RegisterActivity2" />
