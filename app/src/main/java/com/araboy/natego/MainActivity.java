@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                                 if (value.getBoolean("isComplete") != null) {
                                     surveyComplete = value.getBoolean("isComplete");
                                     if (value.getBoolean("isComplete")) {
-                                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                                        startActivity(new Intent(getApplicationContext(), HomeSideBarActivity.class));
                                         finish();
                                     }
                                 } else {
